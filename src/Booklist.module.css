@@ -1,0 +1,8 @@
+.booklist {
+  width: 90vw;
+  max-width: 90px;
+  padding: 10px;
+  display: grid;
+  gap: 5px;
+  background-color: white;
+}

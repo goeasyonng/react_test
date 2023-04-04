@@ -1,0 +1,32 @@
+.container {
+  background-color: rgb(169, 156, 159);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.movielist {
+  background-color: rgb(249, 217, 227);
+  margin: 20px 20px;
+  padding: 30px 30px;
+  display: flex;
+}
+ul,
+li {
+  list-style: none;
+}
+ul :nth-child(1) {
+  color: rgb(122, 116, 116);
+  font-size: xx-large;
+}
+ul :nth-child(2) {
+  color: rgb(122, 116, 116);
+  font-size: x-large;
+  line-height: 40px;
+}
+ul :nth-child(3) {
+  padding-top: 20px;
+}
+ul :nth-child(4) {
+  position: absolute;
+  /* word-spacing: 10px; */
+  /* letter-spacing: 10px; */
+}
